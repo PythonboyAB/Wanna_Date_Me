@@ -1,0 +1,88 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 62.5%;
+   
+}
+
+/* body{
+   /* */
+   /* background-color: aqua;
+   background-repeat: no-repeat;
+   background-size: cover; */
+   /* background-position: center; */
+   /* position: relative;
+   height: 100vh; */
+   /* font-family: 'Kanit', sans-serif;
+/* } */
+/* .container{ */ 
+   /* height: 100vh; */
+   /* text-align: center; */
+   /* top:50% ;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   position: absolute; */
+body{
+      /* background-image:url(https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844226_1280.png); */
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+   background-color: aqua;
+   
+   
+}
+.container{
+margin-top:10rem;
+/* border: 2px solid red; */
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+img{
+   /* width:30rem; */
+   height: 30rem;
+   margin-bottom: 1.5rem;
+}
+
+h1{
+   font-size:7rem;
+   color:rgb(255, 2, 145);
+   text-shadow: 1px 1px 4px rgb(0, 0, 0);
+
+}
+
+button{
+  position: absolute;
+   /* display: flex; */
+   cursor: pointer;
+   /* margin: 0 10px; */
+   /* padding: 10px 30px; */
+   /* text-align: center; */
+   border: none;
+   
+     
+}
+
+.butns1,.butns2{
+   width:12rem;
+   height: 5rem;
+   font-size: 2.5rem;
+   cursor: pointer;
+   margin-left: 2rem;
+   margin-right: 5rem;
+   border-radius: 1.5rem;
+   outline: none;
+   border: none;
+   background-color: rgb(255, 2, 145);
+   color: aliceblue;
+   font-weight: 700;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   box-shadow: 2px 2px 8px rgb(0, 0, 0);
+   /* text-transform:lowercase; */
+} 
+ .butns1
+{
+   right: 50%;
+}
